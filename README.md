@@ -8,7 +8,6 @@
 
 - [Website](#Website)
 - [Technologies](#Technologies)
-- [Available Scripts](#Available-Scripts)
 - [License](#license)
 - [Author-Info](#About-info)
 
@@ -19,7 +18,7 @@
 <h1 style="color: green;">
 <h1>If you want visited my Work .</h1>
 
-Click here ==> <a href="https://keen-volhard-2b8ec9.netlify.app/" style="color: red;"> Landing Page</a>
+Click here ==> <a href="https://mitaka1210.github.io/landingPages/" style="color: red;"> Landing Page</a>
 
 [Back To The Top](#Menu)
 
