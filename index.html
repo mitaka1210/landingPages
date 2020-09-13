@@ -1,0 +1,91 @@
+<!--? Съобщение за браузера как трябва да обработва тази страница -->
+<!DOCTYPE html>
+<!--? Обвивката на документа, указва езика на съдържанието -->
+<html lang="en">
+	<!--? Заглавие на страницата, контейнер за други важни данни (не се показва) -->
+	<head>
+		<!-- ?Заглавие на страницата на браузъра-->
+		<title>TTITLE</title>
+		<!--? Избор на шрифт и стил-->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
+		<!--? Включваме CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!--? Иконка на сайта -->
+		<link rel="icon" type="image/png" sizes="32x32" href="">
+		<!--? Кодиране на страница-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-type" content="text/html" >
+		
+	</head>
+	<!--? Показва се тялото на страницата -->
+	<body>
+		<header class="hero">
+			<div class="container spacing">
+				<h1 class="primary-title">Amazing shoes at an amazing price</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam perspiciatis facilis beatae laudantium
+					quidem enim sit sequi!</p>
+					<a href="#" class="btn">See what we have</a>
+			</div>
+		</header>
+
+
+		<main>
+
+			<section class="featured">
+			  <div class="container">
+				 <h2 class="section-title">Featured products</h2>
+				 <div class="split">
+					<a href="#" class="featured__item">
+					  <img src="img/shoe-4.png" alt="" class="featured__img">
+					  <p class="featured__details"><span class="price">$99</span>shoe name</p>
+					</a>
+					<a href="#" class="featured__item">
+					  <img src="img/shoe-5.png" alt="" class="featured__img">
+					  <p class="featured__details"><span class="price">$99</span>shoe name</p>
+					</a>
+					<a href="#" class="featured__item">
+					  <img src="img/shoe-6.png" alt="" class="featured__img">
+					  <p class="featured__details"><span class="price">$99</span>shoe name</p>
+					</a>
+				 </div>
+			  </div>
+			</section>
+	  
+	  
+			<section class="our-products">
+			  <div class="container">
+				 <h2 class="section-title">Our products</h2>
+	  
+				 <article class="product shoe-red spacing">
+					<img src="img/shoe-1.png" alt="" class="product__image">
+					<h3 class="product__title">A really nice shoe</h3>
+					<p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+					  perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+					<a href="" class="btn">Buy now</a>
+				 </article>
+	  
+				 <article class="product shoe-white shoe-left spacing">
+					<img src="img/shoe-2.png" alt="" class="product__image">
+					<h3 class="product__title">A really nice shoe</h3>
+					<p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+					  perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+					<a href="" class="btn">Buy now</a>
+				 </article>
+	  
+				 <article class="product shoe-blue spacing">
+					<img src="img/shoe-3.png" alt="" class="product__image">
+					<h3 class="product__title">A really nice shoe</h3>
+					<p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+					  perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+					<a href="" class="btn">Buy now</a>
+				 </article>
+	  
+			  </div>
+			</section>
+	  
+		 </main>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>

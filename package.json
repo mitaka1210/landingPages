@@ -1,0 +1,10 @@
+{
+  "name": "landingPage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dimitar <dimitar_dimitrov12@mail.bg>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
